@@ -15,3 +15,9 @@ body{
 .navbar-nav li a:hover{
   color: $black !important;
 }
+
+.main-container{
+	width: 80% !important;
+	height: 65vh;
+	margin: 0 auto;
+}
