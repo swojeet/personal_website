@@ -1,0 +1,17 @@
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar-nav li a{
+  color: $black !important;
+}
+
+.navbar-nav:hover{
+  li a {
+    color: $gray-600 !important;
+  }
+}
+
+.navbar-nav li a:hover{
+  color: $black !important;
+}
