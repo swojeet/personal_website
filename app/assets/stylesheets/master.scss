@@ -1,5 +1,8 @@
 body{
   font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
+  margin: 0;
+  height: 100%;
 }
 
 .navbar-nav li a{
@@ -18,8 +21,10 @@ body{
 
 .main-container{
 	width: 80% !important;
-	height: 65vh;
-	margin: 0 auto;
+	height: 100%;
+  min-height: 100%;
+  padding: 2em 2em 6em;
+  margin-bottom: -4em;
 }
 
 .color-red{
@@ -46,6 +51,11 @@ body{
   font-size: 2.5em;
 }
 
+#footer{
+  background-color: #2e2e2e;
+  color: $white;
+  height: 4em;
+}
 
 h1.elegantshadow {
   // font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
